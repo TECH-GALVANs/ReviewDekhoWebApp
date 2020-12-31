@@ -1,0 +1,230 @@
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+*/
+/* navbar css */
+nav{
+    background-color: #019031;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu Mono', monospace;
+    /* width: 101%; */
+    /* position: fixed; */
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar-nav{
+   margin: 1%;
+   padding: 1%;
+}
+/* navbar media-query */
+@media ( max-width: 900px ){
+    nav{
+        font-size: 1.2rem;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+}
+@media ( max-width: 600px ){
+    nav{
+        font-size: 1rem;
+    }
+    .navbar-brand{
+        font-size: 1.2rem;
+    }
+}
+/* navbar css done ----------------------------------------------------------------------*/
+
+/* header part started....... */
+.header-area{
+    background-color: #019031;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 3%;
+    width: 101.1%;
+}
+#heading-title{
+    padding: 2%;
+    margin-top: 15%;
+}
+#heading-image{
+    padding: 2%;
+}
+#heading-image > img{
+    height: 400px;
+    width: 500px;
+}
+/* media quries for header-part */
+@media ( max-width: 900px ){
+    .header-area{
+        width: 102%;
+    }
+    #heading-title{
+        padding: 2%;
+    }
+    #heading-image{
+        padding: 2%;
+    }
+    #heading-image > img{
+        margin-top: 15%;
+        height: 400px;
+        width: 500px;
+    }
+}
+@media ( max-width: 600px ){
+    .header-area{
+        width: 104%;
+    }
+    #heading-title{
+        padding: 1%;
+    }
+    #heading-image{
+        padding: 1%;
+    }
+    #heading-image > img{
+        margin-top: 10%;
+        height: 300px;
+        width: 100%;
+    }
+}
+/* header css done------------------------------------------------------------------------------- */
+
+/* middle part css started.......... */
+.container-fluid{
+    padding: 2%;
+    margin: 2%;
+    width: auto;
+}
+.card{
+    /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); */
+    /* margin-top: 5%; */
+}
+.card-img-top{
+    height: 400px;
+}
+/* footer css started */
+footer{
+	background-color: #019031;
+	padding: 2% 10%;
+	text-align: center;
+    color: white;
+}
+.footer-icon {
+	color: white;
+	padding-right: 1%;
+}
+/* footer css done------------------------------------------------------------------------------- */
+/* Special created card by me --- and following is the css for that card */
+.card-img-left{
+    height: 100px;
+    width: 100px;
+    /* margin-left: 25px; */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.my-card{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.reviewer{
+    padding: 5%;
+}
+.username{
+    padding: 5%;
+}
+.username a{
+    color: #019031;    
+    /* color: #019031;    */
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid lightgray;
+    /* border-bottom: 1px solid #fff; */
+}
+.reviewer-action{
+    /* height: 80px; */
+    padding: 2%;
+    margin: 2%;
+    margin-top: -5%;
+}
+.reviewer-action  a {
+    list-style: none;
+    text-decoration: none;
+    color: #019031;   
+    font-size: 20px;
+    
+}
+.reviewer-action  a:hover{
+    color: #02c543;   
+}
+.like{
+    text-align: center;
+    /* background-color: lightsalmon; */
+    padding: 2%;
+}
+.comment{
+    text-align: center;
+    padding: 2%;
+    /* background-color: lightseagreen; */
+}
+.report {
+    text-align: center;
+    /* background-color: lightslategrey; */
+    padding: 2%;
+}
+.report a{
+    color: #019031;   
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.read-more{
+    text-align: center;
+    padding: 2%;
+    color: #019031;   
+    /* background-color: lightslategrey; */
+}
+.card-text a{
+    color: #019031;   
+    list-style: none;
+    text-decoration: none;
+    /* font-size: 20px; */
+}
+/* card css over............................................. */
+/* Sign-in Form Css started..... */
+.login-form-box-shadow{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
+    margin: 5%;
+    width: auto;
+}
+.login-form{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    /* background-color: #58b85b; */
+    color:  #019031;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5%;
+    font-size: 1.5rem;
+    /* width: 100%; */
+}
+.register-link{
+    display: inline-block;
+}
+.register-link > a{
+    text-decoration: none;
+    color: #019031;
+    font-size: 1.3rem;
+}
+.register-link > a:hover{
+    color: #7ab18d;
+}
+/* Sign in css Over.............................................. */
+/* Sign-up Form Css started..... */
+
+/* Sign-up css Over.............................................. */
